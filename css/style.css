@@ -1,0 +1,24 @@
+*{	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Pridi', serif;
+	}
+
+
+
+.letter{filter: drop-shadow(0px 0px 10px yellow);}
+
+
+.clock-bg{
+	box-shadow:0px 0px 50px #ffff00ba;
+	border-radius:20px;
+	}
+	
+	
+.border-line
+{
+		border-bottom:1px solid #ffff00ba !important;
+		}
+		
+		
+#ampm{filter: drop-shadow(0px 0px 10px #ffff00ba);
