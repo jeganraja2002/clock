@@ -110,51 +110,8 @@
 				
 			else{
 				ampm.innerHTML=(" Ante Meridiem")}
-			
-
-
 			}
 			jegan()
 		setInterval(jegan,1000);
 
 	
-
-
-
-
-	set.addEventListener("submit",function (e) {
-				e.preventDefault()
-
-		
-			setInterval(alarm,1000)
-		})
-
-
-	function alarm() {
-
-		var alarmhours=document.getElementById("alhr")
-		var alarmminutes=document.getElementById("almin")		
-		var alarmampm=document.getElementById("alam")		
-		var set=document.getElementById("set")		
-
-			let yesterday=new Date()
-			var jegan=yesterday.getHours()
-			var raja=yesterday.getMinutes()
-			console.log(jegan,raja)
-
-				if ( (alarmhours.value==jegan%12)&&(alarmminutes.value==raja) ) {
-						console.log("true")
-						new Audio("audio/kathithi.mp3").play()
-				} 
-				else {
-					console.log("false")
-				}
-
-	}
-
-
-
-			
-
-
-
